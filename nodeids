@@ -1,0 +1,9 @@
+[
+  "tests/test_predict.py::test_predict_returns_keys",
+  "tests/test_predict.py::test_probability_in_range",
+  "tests/test_predict.py::test_risk_category_valid",
+  "tests/test_preprocess.py::test_preprocess_output",
+  "tests/test_preprocess.py::test_split_sizes",
+  "tests/test_preprocess.py::test_synthetic_data_shape",
+  "tests/test_train.py::test_all_models_train"
+]
