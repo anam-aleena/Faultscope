@@ -19,7 +19,7 @@ RISK_ICONS = {
 }
 
 
-def show():
+def render():
     st.title("🔮 Machine Failure Prediction")
     st.markdown("Enter machine sensor readings to get a real-time failure risk assessment.")
 
@@ -122,4 +122,4 @@ def show():
 
         except Exception as e:
             st.error(f"Prediction error: {e}")
-            render = show
+            
