@@ -11,7 +11,7 @@ MODELS_DIR = os.path.join(os.path.dirname(__file__), "..", "models")
 PROCESSED_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "processed")
 
 
-def render():
+def show():
     st.title("📈 Business Insights")
     st.caption("Operational and financial impact of the predictive maintenance model.")
 
@@ -93,4 +93,4 @@ def render():
         st.write(f"Based on your dataset, {failures:,} failure events at ${cost_per_failure:,} each = ${failures*cost_per_failure:,} total exposure.")
     with st.expander("4. What maintenance action should be taken now?"):
         st.write("Each prediction returns a risk category (LOW / MEDIUM / HIGH / CRITICAL) and a recommended maintenance action.")
-render = show
+
