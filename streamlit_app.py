@@ -16,8 +16,8 @@ PAGES = {
 
 
 def main() -> None:
-    st.set_page_config(page_title="PredictX", page_icon="🏭", layout="wide")
-    st.sidebar.markdown("# 🏭 PredictX")
+    st.set_page_config(page_title="Faultscope", page_icon="🏭", layout="wide")
+    st.sidebar.markdown("# 🏭 Faultscope")
     st.sidebar.markdown("*Industrial IoT Predictive Maintenance*")
     st.sidebar.markdown("---")
     page = st.sidebar.radio("Navigate", list(PAGES.keys()), label_visibility="collapsed")
