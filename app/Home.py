@@ -51,3 +51,4 @@ def render():
 
     st.markdown("---")
     st.caption("PredictX · MIT License · Built with scikit-learn, SHAP, and Streamlit")
+render = show
