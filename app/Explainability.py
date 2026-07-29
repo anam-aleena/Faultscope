@@ -71,3 +71,4 @@ def show():
         | Rotational Speed | < 1200 RPM | Check motor and drive |
         | Process Temp | > 313 K | Inspect cooling system |
         """)
+render = show
