@@ -93,3 +93,4 @@ def render():
         st.write(f"Based on your dataset, {failures:,} failure events at ${cost_per_failure:,} each = ${failures*cost_per_failure:,} total exposure.")
     with st.expander("4. What maintenance action should be taken now?"):
         st.write("Each prediction returns a risk category (LOW / MEDIUM / HIGH / CRITICAL) and a recommended maintenance action.")
+render = show
