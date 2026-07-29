@@ -20,7 +20,7 @@ Unplanned machine breakdowns cost Indian manufacturers **₹50,000–₹5,00,000
 
 ## 🖥️ Live Demo
 
-🔗 **[Launch FaultScope →](https://your-streamlit-url.streamlit.app)**
+🔗 **[Launch FaultScope →](https://faultscope.streamlit.app/)**
 
 ---
 
