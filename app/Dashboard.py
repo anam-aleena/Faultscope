@@ -70,4 +70,4 @@ def render():
             img = _load_img("boxplots.png")
             if img:
                 st.image(img, caption="Feature Distributions by Failure Status", use_container_width=True)
-render = show
+
