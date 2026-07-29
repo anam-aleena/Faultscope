@@ -4,6 +4,7 @@ from __future__ import annotations
 import streamlit as st
 from app import Business_Insights, Dashboard, Explainability, Home, Model_Comparison, Prediction
 
+
 PAGES = {
     "🏠 Home": Home.render,
     "📊 Dashboard": Dashboard.render,
