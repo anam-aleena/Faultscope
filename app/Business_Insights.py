@@ -11,7 +11,7 @@ MODELS_DIR = os.path.join(os.path.dirname(__file__), "..", "models")
 PROCESSED_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "processed")
 
 
-def show():
+def render():
     st.title("📈 Business Insights")
     st.caption("Operational and financial impact of the predictive maintenance model.")
 
