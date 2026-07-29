@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+models/*.joblib
+models/*.json
+data/raw/
+data/processed/
+screenshots/
+.streamlit/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
