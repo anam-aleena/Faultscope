@@ -5,7 +5,7 @@ SCREENSHOTS = 'screenshots'
 INSIGHTS_PATH = os.path.join('models', 'feature_insights.json')
 
 
-def show():
+def render():
     st.title("🧠 Explainability & Feature Insights")
     st.markdown("Understanding *why* the model predicts failures — not just *what* it predicts.")
 
@@ -71,4 +71,4 @@ def show():
         | Rotational Speed | < 1200 RPM | Check motor and drive |
         | Process Temp | > 313 K | Inspect cooling system |
         """)
-render = show
+
