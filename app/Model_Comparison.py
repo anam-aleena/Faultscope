@@ -97,4 +97,4 @@ def render():
         roc_img = os.path.join(SCREENSHOTS, "roc_curve.png")
         if os.path.exists(roc_img):
             st.image(Image.open(roc_img), caption="ROC Curve", use_container_width=True)
-render = show
+
