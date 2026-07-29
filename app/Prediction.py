@@ -122,3 +122,4 @@ def show():
 
         except Exception as e:
             st.error(f"Prediction error: {e}")
+            render = show
